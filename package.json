@@ -1,0 +1,20 @@
+{
+  "name": "js-hello-world",
+  "version": "1.0.0",
+  "description": "NodeJS Hello, World! app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=8080 node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podanypepa/js-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/podanypepa/js-hello-world/issues"
+  },
+  "homepage": "https://github.com/podanypepa/js-hello-world#readme"
+}
