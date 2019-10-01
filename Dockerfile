@@ -7,4 +7,5 @@ RUN npm i
 
 EXPOSE 8080
 
-CMD ["node", "index.js"]
+ENTRYPOINT ["node"]
+CMD ["index.js"]
