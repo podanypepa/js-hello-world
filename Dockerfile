@@ -1,11 +1,12 @@
-FROM node:latest
+FROM node:alpine
 
 WORKDIR /app
 COPY . /app
 
 RUN npm i
 
-EXPOSE 8080
+ENV PORT=9000
+EXPOSE $PORT
 
 ENTRYPOINT ["node"]
 CMD ["index.js"]
