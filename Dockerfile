@@ -6,6 +6,7 @@ COPY . /app
 RUN npm i
 
 ENV PORT=9000
+
 EXPOSE $PORT
 
 ENTRYPOINT ["node"]
